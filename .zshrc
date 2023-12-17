@@ -30,18 +30,19 @@ source $ZSH/oh-my-zsh.sh
 
 
 ########### CUSTOM CONFIGS ##########
+# path modifications
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
 # global pip install w/o active venv
 gpip(){
     PIP_REQUIRE_VIRTUALENV="0" python -m pip "$@"
 }
 
-# sources
+# source stuff
 source $(brew --prefix)/opt/asdf/libexec/asdf.sh
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-
-# path modifications
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # custom aliases
 alias ll="ls -lha"
