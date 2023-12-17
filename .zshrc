@@ -124,4 +124,8 @@ gpip(){
 # source asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+# path modifications
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+
+# custom aliases
 alias ll="ls -lha"
