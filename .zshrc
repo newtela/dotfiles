@@ -121,8 +121,9 @@ gpip(){
     PIP_REQUIRE_VIRTUALENV="0" python -m pip "$@"
 }
 
-# source asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+# sources
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # path modifications
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
