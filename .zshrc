@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 
 ########### CUSTOM CONFIGS ##########
 # path modifications
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$HOME/go/bin:$PATH"
 
 # global pip install w/o active venv
 gpip(){
@@ -42,7 +42,7 @@ gpip(){
 source $(brew --prefix)/opt/asdf/libexec/asdf.sh
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # custom aliases
 alias ll="ls -lha"
