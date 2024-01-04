@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 
 ########### CUSTOM CONFIGS ##########
 # path modifications
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$HOME/go/bin:$PATH"
+export PATH="/Applications/GoLand.app/Contents/MacOS:/Applications/PyCharm.app/Contents/MacOS:/opt/homebrew/bin:/opt/homebrew/sbin:$HOME/go/bin:$PATH"
 
 # global pip install w/o active venv
 gpip(){
