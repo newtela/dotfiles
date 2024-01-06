@@ -86,7 +86,7 @@
       "float" : 0
     },
     "hideMenubarIcon" : {
-      "bool" : true
+      "bool" : false
     },
     "ignoreDragSnapToo" : {
       "int" : 0
@@ -191,7 +191,7 @@
       "int" : 1
     },
     "SUEnableAutomaticChecks" : {
-      "bool" : false
+      "bool" : true
     },
     "systemWideMouseDown" : {
       "int" : 0
@@ -222,16 +222,20 @@
     }
   },
   "shortcuts" : {
+    "bottomCenterSixth" : {
+      "keyCode" : 40,
+      "modifierFlags" : 786432
+    },
     "bottomHalf" : {
       "keyCode" : 125,
       "modifierFlags" : 786432
     },
-    "bottomLeft" : {
+    "bottomLeftSixth" : {
       "keyCode" : 38,
       "modifierFlags" : 786432
     },
-    "bottomRight" : {
-      "keyCode" : 40,
+    "bottomRightSixth" : {
+      "keyCode" : 37,
       "modifierFlags" : 786432
     },
     "center" : {
@@ -302,16 +306,20 @@
       "keyCode" : 11,
       "modifierFlags" : 786432
     },
+    "topCenterSixth" : {
+      "keyCode" : 34,
+      "modifierFlags" : 786432
+    },
     "topHalf" : {
       "keyCode" : 126,
       "modifierFlags" : 786432
     },
-    "topLeft" : {
+    "topLeftSixth" : {
       "keyCode" : 32,
       "modifierFlags" : 786432
     },
-    "topRight" : {
-      "keyCode" : 34,
+    "topRightSixth" : {
+      "keyCode" : 31,
       "modifierFlags" : 786432
     }
   },
