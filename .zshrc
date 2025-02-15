@@ -39,10 +39,12 @@ gpip(){
 }
 
 # source stuff
-source $(brew --prefix)/opt/asdf/libexec/asdf.sh
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # custom aliases
 alias ll="ls -lha"
+
+# mise
+eval "$(/opt/homebrew/bin/mise activate zsh)"
